@@ -1,0 +1,30 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+html[data-bs-theme="dark"],
+html[data-bs-theme="auto"] {
+  .navbar {
+    background-color: #212529;
+    .navbar-brand  {
+      color: #efefef
+    }
+    .nav-link.disabled {
+      color: #7b7b7b;
+    }
+  }
+}
+
+html[data-bs-theme="light"] {
+  .navbar {
+    background-color: #fff;
+    .navbar-brand  {
+      color: #212529
+    }
+    .nav-link.disabled {
+      color: #7b7b7b;
+    }
+  }
+}
